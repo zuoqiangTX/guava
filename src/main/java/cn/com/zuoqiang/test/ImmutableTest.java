@@ -10,6 +10,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class ImmutableTest {
+    //每个Guava immutable集合类的实现都拒绝null值
     public static void main(String[] args) {
         //不可变集合，顾名思义就是说集合是不可被修改的。集合的数据项是在创建的时候提供，并且在整个生命周期中都不可改变。
         //url:http://www.cnblogs.com/peida/p/Guava_ImmutableCollections.html
